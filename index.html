@@ -5,8 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Portfólio de Igor Magno, desenvolvedor com experiência em PHP, JavaScript, TypeScript, C#, Java e frameworks diversos.">
-    <title>Portfólio - Igor Magno</title>
+        content="Igor Magno é um desenvolvedor full stack com experiência em PHP, JavaScript, TypeScript, Especialista em soluções web, mobile e desktop, sempre buscando inovação e eficiência.">
+    <meta name="keywords"
+        content="desenvolvedor full stack, PHP, JavaScript, TypeScript, React, Node.js, Laravel, desenvolvimento web, mobile, software">
+    <meta name="author" content="Igor Magno">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph (para redes sociais) -->
+    <meta property="og:title" content="Portfólio - Igor Magno">
+    <meta property="og:description"
+        content="Desenvolvedor Full Stack com experiência em PHP, JavaScript, TypeScript, React, Laravel e muito mais. Conheça meus projetos!">
+    <!-- <meta property="og:image" content="https://seusite.com/imagem-thumbnail.jpg"> -->
+    <meta property="og:url" content="https://igor-magno.github.io/i-developer/">
+    <meta property="og:type" content="website">
+
+    <title>Portfólio - Igor Magno | Desenvolvedor Full Stack</title>
+    
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -24,20 +38,6 @@
             gap: 20px;
         }
 
-        .pdf {
-            display: none;
-        }
-
-        @media print {
-            .no-print {
-                display: none;
-            }
-
-            .print {
-                display: block;
-            }
-        }
-
         section {
             max-width: 800px;
             display: flex;
@@ -45,9 +45,7 @@
             gap: 10px;
         }
 
-        h1,
-        h2,
-        h5 {
+        h1, h2, h3 {
             color: #333;
             margin: 0px;
         }
@@ -57,29 +55,16 @@
             margin: 0px;
         }
 
-        .experience {
-            max-height: min-content;
-        }
-        
-        .tag-conteiner-print {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
         .tag-conteiner {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
-            align-items: center;
             justify-content: center;
         }
 
         .tag {
             background-color: rgb(237, 237, 237);
             border-radius: 10px;
-            text-wrap: nowrap;
             padding: 10px;
         }
 
@@ -101,14 +86,10 @@
 
 <body>
 
-    <div class="web no-print">
+    <div class="web">
         <section>
-            <h1>Olá, sou Igor Magno</h1>
-            <p>Desenvolvedor desde 2018, com ampla experiência em criar soluções tecnológicas inovadoras para diversas
-                plataformas, incluindo web, mobile e desktop. Ao longo dos anos, venho aprimorando minhas habilidades e
-                entregando projetos de alta qualidade, sempre focado em oferecer o que há de melhor em termos de
-                eficiência e funcionalidade. Com uma mentalidade versátil e adaptável, estou sempre buscando novos
-                desafios e oportunidades para aprender e crescer no mundo da tecnologia.</p>
+            <h1>Igor Magno - Desenvolvedor Full Stack</h1>
+            <p>Sou um desenvolvedor apaixonado por tecnologia e inovação, criando soluções eficientes para web, mobile e desktop desde 2018. Minha experiência inclui PHP, JavaScript, TypeScript, React, Node.js, Laravel e muito mais.</p>
         </section>
 
         <section>
@@ -117,118 +98,44 @@
         </section>
 
         <section>
-            <h2>Minha Experiência</h2>
-            <div class="experience">
-                <p><strong>Clickweb</strong> · Terceirizado</p>
-                <h5>Desenvolvedor Full Stack, Web, Mobile</h5>
-                <p>nov de 2023 - o momento · 1 ano</p>
-            </div>
-            <div>
-                <p><strong>Freelance/Autônomo</strong></p>
-                <h5>Desenvolvedor Full Stack, Web, Mobile e Desktop</h5>
-                <p>jul de 2018 - o momento · 6 anos 4 meses</p>
-            </div>
-            <div>
-                <p><strong>MAPCLOUD Soluções Tech</strong> · Tempo integral</p>
-                <h5>Desenvolvedor Web - PHP</h5>
-                <p>mar de 2023 - nov de 2023 · 9 meses</p>
-                <p>Goiânia, Goiás, Brasil · Presencial</p>
-            </div>
-            <div>
-                <p><strong>Maggma Software</strong> · Tempo integral</p>
-                <h5>Desenvolvedor Full Stack</h5>
-                <p>ago de 2020 - dez de 2022 · 2 anos 5 meses</p>
-                <p>Bocaiuva, Minas Gerais, Brasil · Presencial</p>
-            </div>
+            <h2>Experiência Profissional</h2>
+            <h3>Clickweb (Terceirizado)</h3>
+            <p><strong>Desenvolvedor Full Stack</strong> · Nov 2023 - Atual</p>
+
+            <h3>MAPCLOUD</h3>
+            <p><strong>Desenvolvedor Web - PHP</strong> · Mar 2023 - Nov 2023</p>
+
+            <h3>Maggma Soluções</h3>
+            <p><strong>Desenvolvedor Full Stack</strong> · Ago 2020 - Dez 2022</p>
+
+            <h3>Freelance/Autônomo</h3>
+            <p><strong>Desenvolvedor Full Stack</strong> · Jul 2018 - Atual</p>
         </section>
 
         <section>
-            <h2>Minhas Habilidades e Conhecimentos</h2>
+            <h2>Habilidades</h2>
             <div class="tag-conteiner">
                 <div class="tag">PHP (Laravel, Lumen)</div>
-                <div class="tag">TypeScript/JavaScript (Nest.js, Next.js, React, Ionic)</div>
-                <div class="tag">C# (Xamarin)</div>
-                <div class="tag">Java (Android)</div>
+                <div class="tag">JavaScript, TypeScript (Next.js, Nest.js, Node.js, React, Ionic)</div>
                 <div class="tag">Mobile (React Native, Ionic, Cordova, Expo)</div>
                 <div class="tag">Desktop (Electron)</div>
-                <div class="tag">Banco de Dados: MySQL, PostgreSQL</div>
-                <div class="tag">API Rest</div>
-                <div class="tag">Arquitetura MVC</div>
-                <div class="tag">Arquitetura de Microserviços</div>
-                <div class="tag">Metodologias Ágeis (Scrum)</div>
-                <div class="tag">Versionamento (Git)</div>
+                <div class="tag">Banco de Dados (MySQL, PostgreSQL)</div>
+                <div class="tag">API REST e GraphQL</div>
+                <div class="tag">Arquitetura MVC e Microserviços</div>
+                <div class="tag">Metodologias Ágeis (Scrum, Kanban)</div>
+                <div class="tag">Versionamento com Git</div>
                 <div class="tag">CI/CD (Integração e Entrega Contínua)</div>
             </div>
         </section>
 
         <footer>
-            <p>&copy; 2024 Igor Magno</p>
-            <button id="pdf-download" class="btn-download">Download em PDF</button>
+            <p>&copy; 2018 - 2025 Igor Magno</p>
+            <button id="pdf-download" class="btn-download">Baixar PDF</button>
         </footer>
     </div>
 
-    <div class="pdf print">
-        <section>
-            <h1>Olá, sou Igor Magno</h1>
-            <p>Desenvolvedor desde 2018, com ampla experiência em criar soluções tecnológicas inovadoras para diversas
-                plataformas, incluindo web, mobile e desktop. Ao longo dos anos, venho aprimorando minhas habilidades e
-                entregando projetos de alta qualidade, sempre focado em oferecer o que há de melhor em termos de
-                eficiência e funcionalidade. Com uma mentalidade versátil e adaptável, estou sempre buscando novos
-                desafios e oportunidades para aprender e crescer no mundo da tecnologia.</p>
-        </section>
-
-        <section>
-            <h2>Contato</h2>
-            <a href="mailto:igormagno.dev@gmail.com">igormagno.dev@gmail.com</a>
-        </section>
-
-        <section>
-            <h2>Minha Experiência</h2>
-            <div class="experience">
-                <p><strong>Clickweb</strong> · Terceirizado</p>
-                <h5>Desenvolvedor Full Stack, Web, Mobile</h5>
-                <p>nov de 2023 - o momento · 1 ano</p>
-            </div>
-            <div>
-                <p><strong>Freelance/Autônomo</strong></p>
-                <h5>Desenvolvedor Full Stack, Web, Mobile e Desktop</h5>
-                <p>jul de 2018 - o momento · 6 anos 4 meses</p>
-            </div>
-            <div>
-                <p><strong>MAPCLOUD Soluções Tech</strong> · Tempo integral</p>
-                <h5>Desenvolvedor Web - PHP</h5>
-                <p>mar de 2023 - nov de 2023 · 9 meses</p>
-                <p>Goiânia, Goiás, Brasil · Presencial</p>
-            </div>
-            <div>
-                <p><strong>Maggma Software</strong> · Tempo integral</p>
-                <h5>Desenvolvedor Full Stack</h5>
-                <p>ago de 2020 - dez de 2022 · 2 anos 5 meses</p>
-                <p>Bocaiuva, Minas Gerais, Brasil · Presencial</p>
-            </div>
-        </section>
-
-        <section>
-            <h2>Minhas Habilidades e Conhecimentos</h2>
-            <div class="tag-conteiner-print">
-                <div class="tag">PHP (Laravel, Lumen)</div>
-                <div class="tag">TypeScript/JavaScript (Nest.js, Next.js, React, Ionic)</div>
-                <div class="tag">C# (Xamarin)</div>
-                <div class="tag">Java (Android)</div>
-                <div class="tag">Mobile (React Native, Ionic, Cordova, Expo)</div>
-                <div class="tag">Desktop (Electron)</div>
-                <div class="tag">Banco de Dados: MySQL, PostgreSQL</div>
-                <div class="tag">API Rest</div>
-                <div class="tag">Arquitetura MVC</div>
-                <div class="tag">Arquitetura de Microserviços</div>
-                <div class="tag">Metodologias Ágeis (Scrum)</div>
-                <div class="tag">Versionamento (Git)</div>
-                <div class="tag">CI/CD (Integração e Entrega Contínua)</div>
-            </div>
-        </section>
-    </div>
-
     <script src="index.js"></script>
+
 </body>
 
 </html>
